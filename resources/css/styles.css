@@ -59,19 +59,23 @@ h1, h2, h3 {
 }
 
 .header1{
-  background: url(/resources/Imagenes/Saben\ cuál\ es\ la\ mejor\ Biblioteca\ Pública\ nueva\ del\ mundo-1.jpg);
+  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),url(/resources/Imagenes/Saben\ cuál\ es\ la\ mejor\ Biblioteca\ Pública\ nueva\ del\ mundo-1.jpg);
   background-size: cover;
   height: 10rem;
+
 }
 
 .part1{
   background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url(/resources/Imagenes/Saben\ cuál\ es\ la\ mejor\ Biblioteca\ Pública\ nueva\ del\ mundo-1.jpg);
   background-size: cover;
   height: 40rem;
+}
+
+article{
   position: relative;
 }
 
-.header2, .header2 p, .publi, .intro{
+.header2, .header2 p, .publi{
   position: absolute;
 }
 
@@ -94,8 +98,8 @@ h1, h2, h3 {
   color: #0097a7;
 }
 
-.intro{
-  bottom: 20rem;
+.publi{
+  top: 15rem;
 }
 
 .navegacion-principal a{
